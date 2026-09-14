@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vitória Santos | Cibersegurança</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #07111f;
+            color: #f1f5f9;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #07111f, #0d2238);
+        }
+
+        .hero {
+            max-width: 850px;
+        }
+
+        .tag {
+            color: #38bdf8;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(42px, 8vw, 72px);
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            color: #cbd5e1;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .buttons {
+            margin-top: 35px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 13px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            background: #38bdf8;
+            color: #07111f;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
+        }
+
+        .button.secondary {
+            background: transparent;
+            color: #f1f5f9;
+            border: 1px solid #38bdf8;
+        }
+
+        section {
+            max-width: 1050px;
+            margin: auto;
+            padding: 80px 25px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title p {
+            color: #94a3b8;
+        }
+
+        .about {
+            text-align: center;
+            color: #cbd5e1;
+            font-size: 18px;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #0d1b2a;
+            border: 1px solid #1e3a52;
+            border-radius: 12px;
+            padding: 25px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+        }
+
+        .card h3 {
+            color: #f1f5f9;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #94a3b8;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            padding: 10px 16px;
+            border: 1px solid #28506b;
+            border-radius: 20px;
+            color: #cbd5e1;
+            background: #0d1b2a;
+        }
+
+        .project a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            border-top: 1px solid #1e3a52;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                min-height: 80vh;
+            }
+
+            section {
+                padding: 60px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+
+        <div class="tag">
+            Tecnologia • Redes • Cibersegurança
+        </div>
+
+        <h1>Vitória Santos</h1>
+
+        <h2>Transição de Carreira para Cibersegurança</h2>
+
+        <p>
+            Pedagoga, pós-graduada em UX e em transição para Tecnologia,
+            com foco em Redes de Computadores, Cibersegurança e Segurança da Informação.
+        </p>
+
+        <div class="buttons">
+            <a class="button" href="portfolio-vitoria-santos.pdf">
+                Ver meu portfólio
+            </a>
+
+            <a class="button secondary"
+               href="https://github.com/Vitori30"
+               target="_blank">
+                GitHub
+            </a>
+
+            <a class="button secondary"
+               href="https://www.linkedin.com/in/vitória-santos-s"
+               target="_blank">
+                LinkedIn
+            </a>
+        </div>
+
+    </div>
+</header>
+
+
+<section>
+
+    <div class="section-title">
+        <h2>Sobre mim</h2>
+    </div>
+
+    <p class="about">
+        Minha trajetória profissional reúne experiência em atendimento,
+        comunicação, gestão e educação. Atualmente, direciono essa experiência
+        para a área de Tecnologia, desenvolvendo conhecimentos em Redes de
+        Computadores, Infraestrutura, Cibersegurança e Segurança da Informação.
+    </p>
+
+</section>
+
+
+<section>
+
+    <div class="section-title">
+        <h2>Base Técnica</h2>
+        <p>Conhecimentos desenvolvidos durante minha formação.</p>
+    </div>
+
+    <div class="skills">
+
+        <span class="skill">TCP/IP</span>
+        <span class="skill">IPv4</span>
+        <span class="skill">Subnetting</span>
+        <span class="skill">LAN</span>
+        <span class="skill">Ethernet</span>
+        <span class="skill">MAC</span>
+        <span class="skill">DHCP</span>
+        <span class="skill">NAT</span>
+        <span class="skill">ICMP / Ping</span>
+        <span class="skill">Cisco Packet Tracer</span>
+        <span class="skill">Switches</span>
+        <span class="skill">Roteadores</span>
+        <span class="skill">Análise de Incidentes</span>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <div class="section-title">
+        <h2>Projetos</h2>
+        <p>Projetos e laboratórios desenvolvidos durante minha transição.</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card project">
+
+            <h3>Conceitos Básicos de Redes</h3>
+
+            <p>
+                Estudos e laboratórios de redes utilizando Cisco Packet Tracer,
+                abordando IPv4, DHCP, NAT, switches, roteadores e conectividade.
+            </p>
+
+            <br>
+
+            <a href="https://github.com/Vitori30/conceitosbasicos-redes"
+               target="_blank">
+                Ver projeto →
+            </a>
+
+        </div>
+
+
+        <div class="card project">
+
+            <h3>Análise de Incidente — ISAC</h3>
+
+            <p>
+                Estudo de caso de um incidente cibernético, com análise,
+                investigação, contenção, recuperação e medidas de melhoria.
+            </p>
+
+            <br>
+
+            <a href="https://github.com/Vitori30/analise-incidente-isac"
+               target="_blank">
+                Ver projeto →
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Laboratórios de Redes</h3>
+
+            <p>
+                Prática com diferentes cenários de redes no Cisco Packet Tracer,
+                fortalecendo conhecimentos de infraestrutura e comunicação de redes.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <div class="section-title">
+        <h2>Competências</h2>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Comunicação</h3>
+            <p>Experiência com atendimento, relacionamento e comunicação.</p>
+        </div>
+
+        <div class="card">
+            <h3>Resolução de Problemas</h3>
+            <p>Capacidade de analisar situações e buscar soluções.</p>
+        </div>
+
+        <div class="card">
+            <h3>Organização</h3>
+            <p>Experiência com processos, gestão e acompanhamento de atividades.</p>
+        </div>
+
+        <div class="card">
+            <h3>Aprendizado Contínuo</h3>
+            <p>Dedicação ao desenvolvimento de novas competências em Tecnologia.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <div class="contact">
+
+        <h2>Objetivo Profissional</h2>
+
+        <p class="about">
+            Busco uma oportunidade de entrada ou nível Júnior em
+            Cibersegurança, Segurança da Informação, Suporte de Redes
+            ou Operações de TI.
+        </p>
+
+        <div class="buttons">
+
+            <a class="button"
+               href="mailto:vitoria9030@gmail.com">
+                Entrar em contato
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    © 2026 Vitória Santos — Portfólio de Tecnologia e Cibersegurança
+
+</footer>
+
+</body>
+</html>
